@@ -25,7 +25,7 @@ export default function FinalCTA() {
           </p>
 
           <a
-            href="https://apply.getreae.com/join-beta/"
+            href="https://apply.getreae.com?utm_source=website&utm_medium=cta&utm_campaign=founding_member_beta&utm_content=final_cta"
             className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-10 py-4 text-lg font-semibold text-white hover:bg-blue-700 transition-colors shadow-lg shadow-blue-600/25"
           >
             Apply Now&nbsp;&rarr;
