@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Done-for-you Meta ads and funnels that generate qualified seller appointments.",
     url: "https://getreae.com",
     siteName: "REAE",
-    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "REAE - Seller Appointments for Real Estate Agents",
     description:
       "Done-for-you Meta ads and funnels that generate qualified seller appointments.",
-    images: ["/og-image.png"],
+    images: ["/images/og-image.jpg"],
   },
   metadataBase: new URL("https://getreae.com"),
 };
