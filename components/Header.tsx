@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -22,8 +23,8 @@ export default function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
-        <a href="#" className="text-xl font-bold text-slate-900 tracking-tight">
-          REAE
+        <a href="#" className="flex items-center">
+          <Image src="/images/logo.png" alt="REAE" width={120} height={40} priority />
         </a>
 
         {/* Desktop nav */}

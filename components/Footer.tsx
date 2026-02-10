@@ -1,13 +1,12 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="bg-slate-900 text-white py-12">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
           <div className="text-center md:text-left">
-            <p className="text-xl font-bold tracking-tight mb-1">REAE</p>
-            <p className="text-slate-400 text-sm">
-              Real Estate Appointment Engine (REAE)
-            </p>
+            <Image src="/images/logo.png" alt="REAE" width={100} height={33} className="brightness-0 invert mb-1" />
           </div>
 
           <div className="text-center md:text-right">
