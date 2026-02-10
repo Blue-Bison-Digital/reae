@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   title: "REAE - Done-For-You Seller Appointments for Real Estate Agents",
   description:
     "Predictable seller appointments without chasing referrals. We build and run your entire acquisition system. Beta launching March 2026.",
+  icons: {
+    icon: "/images/favicon.png",
+    apple: "/images/favicon.png",
+  },
   openGraph: {
     title: "REAE - Seller Appointments for Real Estate Agents",
     description:
