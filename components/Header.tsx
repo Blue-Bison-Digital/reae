@@ -23,26 +23,26 @@ export default function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
-        <a href="#" className="flex items-center">
-          <Image src="/images/logo.png" alt="REAE" width={120} height={40} priority />
+        <a href="/" className="flex items-center">
+          <Image src="/images/logo.png" alt="REAE" width={140} height={47} priority />
         </a>
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">
           <a
-            href="#how-it-works"
+            href="/#how-it-works"
             className="text-sm text-slate-600 hover:text-slate-900 transition-colors"
           >
             How It Works
           </a>
           <a
-            href="#who-its-for"
+            href="/#who-its-for"
             className="text-sm text-slate-600 hover:text-slate-900 transition-colors"
           >
             Who It&apos;s For
           </a>
           <a
-            href="#about"
+            href="/#about"
             className="text-sm text-slate-600 hover:text-slate-900 transition-colors"
           >
             About
@@ -70,21 +70,21 @@ export default function Header() {
         <div className="md:hidden bg-white border-b border-slate-200 shadow-lg">
           <nav className="flex flex-col px-6 py-4 gap-4">
             <a
-              href="#how-it-works"
+              href="/#how-it-works"
               className="text-base text-slate-600 hover:text-slate-900 transition-colors"
               onClick={() => setMobileOpen(false)}
             >
               How It Works
             </a>
             <a
-              href="#who-its-for"
+              href="/#who-its-for"
               className="text-base text-slate-600 hover:text-slate-900 transition-colors"
               onClick={() => setMobileOpen(false)}
             >
               Who It&apos;s For
             </a>
             <a
-              href="#about"
+              href="/#about"
               className="text-base text-slate-600 hover:text-slate-900 transition-colors"
               onClick={() => setMobileOpen(false)}
             >
