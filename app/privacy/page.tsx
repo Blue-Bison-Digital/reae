@@ -74,8 +74,14 @@ export default function PrivacyPolicy() {
           <p>By providing your phone number and consenting to receive text messages:</p>
           <ul className="list-disc pl-6">
             <li>
-              You agree to receive appointment confirmations, reminders, follow-up messages, and
-              service updates via SMS
+              You agree to receive the following types of SMS messages:
+              <ul className="list-disc pl-6">
+                <li>Appointment confirmations and reminders</li>
+                <li>Service updates and notifications</li>
+                <li>Follow-up messages related to your inquiry</li>
+                <li>Administrative messages related to your account</li>
+                <li>Promotional messages about our services (if you have opted in)</li>
+              </ul>
             </li>
             <li>Message frequency varies based on your engagement with our services</li>
             <li>You can opt out at any time by replying STOP to any message</li>
