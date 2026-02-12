@@ -7,7 +7,9 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
           <div className="text-center md:text-left">
-            <Image src="/images/logo.png" alt="REAE" width={100} height={33} className="brightness-0 invert mb-1" />
+            <Link href="/">
+              <Image src="/images/logo.png" alt="REAE" width={120} height={40} className="brightness-0 invert mb-1" />
+            </Link>
           </div>
 
           <div className="text-center md:text-right space-y-2">
