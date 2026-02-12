@@ -89,6 +89,23 @@ export default function PrivacyPolicy() {
             </li>
           </ul>
 
+          <h3>Mobile Information Sharing</h3>
+          <p>We do not sell or rent your mobile phone number to third parties.</p>
+          <p>We may share your phone number with:</p>
+          <ul className="list-disc pl-6">
+            <li>
+              Service providers necessary to deliver SMS messages (Twilio,
+              LeadConnector/GoHighLevel)
+            </li>
+            <li>
+              The real estate agent whose services you inquired about (for client lead data)
+            </li>
+          </ul>
+          <p>
+            We do not share your mobile number for marketing purposes outside of our services or
+            with unaffiliated third parties without your consent.
+          </p>
+
           <h2>Cookies and Tracking Technologies</h2>
           <p>We use cookies and similar technologies to:</p>
           <ul className="list-disc pl-6">

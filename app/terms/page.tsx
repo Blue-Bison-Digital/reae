@@ -112,6 +112,70 @@ export default function TermsOfService() {
             </li>
           </ul>
 
+          <h2>Text Messaging Terms</h2>
+          <p>
+            By providing your mobile phone number and consenting to receive text messages, you agree
+            to the following:
+          </p>
+
+          <h3>Types of Messages</h3>
+          <p>You may receive the following types of SMS messages from REAE:</p>
+          <ul className="list-disc pl-6">
+            <li>Appointment confirmations and reminders</li>
+            <li>Service updates and notifications</li>
+            <li>Follow-up messages related to your inquiry</li>
+            <li>Administrative messages related to your account</li>
+            <li>Promotional messages about our services (if you have opted in)</li>
+          </ul>
+
+          <h3>Opt-Out Instructions</h3>
+          <p>You can opt out of receiving text messages at any time by:</p>
+          <ul className="list-disc pl-6">
+            <li>
+              Replying <strong>STOP</strong> to any message
+            </li>
+            <li>
+              Replying <strong>UNSUBSCRIBE</strong> to any message
+            </li>
+            <li>
+              Contacting us at{" "}
+              <a href="mailto:hello@getreae.com" className="text-blue-600 hover:underline">
+                hello@getreae.com
+              </a>
+            </li>
+          </ul>
+          <p>
+            After opting out, you will receive one final confirmation message. You may continue to
+            receive transactional messages related to active appointments or services.
+          </p>
+          <p>
+            For help or support, reply <strong>HELP</strong> to any message or contact{" "}
+            <a href="mailto:hello@getreae.com" className="text-blue-600 hover:underline">
+              hello@getreae.com
+            </a>
+            .
+          </p>
+
+          <h3>Message and Data Rates</h3>
+          <p>
+            Message frequency varies based on your interaction with our services. Standard message
+            and data rates may apply based on your mobile carrier&apos;s plan. Check with your
+            carrier for details on your messaging plan.
+          </p>
+
+          <h3>Carrier Liability</h3>
+          <p>
+            Mobile carriers are not liable for delayed or undelivered messages. We are not
+            responsible for carrier-related issues, network outages, or limitations that may prevent
+            message delivery.
+          </p>
+
+          <h3>Mobile Number Changes</h3>
+          <p>
+            If you change your mobile phone number, you must notify us immediately to update your
+            contact information and avoid messages being sent to a new user of your previous number.
+          </p>
+
           <h2>Service Guarantee</h2>
           <p>For Beta Program clients only:</p>
           <ul className="list-disc pl-6">
