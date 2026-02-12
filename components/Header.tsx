@@ -23,7 +23,7 @@ export default function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
-        <a href="#" className="flex items-center">
+        <a href="/" className="flex items-center">
           <Image src="/images/logo.png" alt="REAE" width={120} height={40} priority />
         </a>
 
